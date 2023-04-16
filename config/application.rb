@@ -12,6 +12,7 @@ module BookApp
     config.load_defaults 7.0
     config.assets.enabled = false
     config.assets.compile = false
+    config.assets.precompile = []
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
