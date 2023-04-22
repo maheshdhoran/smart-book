@@ -20,3 +20,7 @@ Refer to `.env.example` for understanding the required environment variables:
 1. Start the Rails server by running `rails s`.
 2. Start the Vite development server by running `npm run dev` in the `book-ui` directory.
 3. Visit `localhost:3000` in your web browser to view the application.
+
+## Deployment
+
+This application has been deployed to Netlify and can be accessed at https://smart-book-ai.netlify.app/.
