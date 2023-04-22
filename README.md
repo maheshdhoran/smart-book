@@ -1,24 +1,15 @@
-# README
+# Smart Book
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is built on Ruby on Rails as a backend framework, using Ruby version 3.2.2. The UI is built using Vite and React, with the directory for the UI being `book-ui`.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+1. Clone this repository to your local machine using `git clone https://github.com/maheshdhoran/smart-book.git`.
+2. Install the required dependencies by running `bundle install`.
+3. Install the Node.js dependencies by running `npm install` in the `book-ui` directory.
 
-* System dependencies
+## Usage
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Start the Rails server by running `rails s`.
+2. Start the Vite development server by running `npm run dev` in the `book-ui` directory.
+3. Visit `localhost:3000` in your web browser to view the application.
