@@ -8,6 +8,13 @@ This project is built on Ruby on Rails as a backend framework, using Ruby versio
 2. Install the required dependencies by running `bundle install`.
 3. Install the Node.js dependencies by running `npm install` in the `book-ui` directory.
 
+## Environment Variables
+
+Refer to `.env.example` for understanding the required environment variables:
+
+1. `MONGODB_URI`: This variable is used to specify the MongoDB connection string.
+2. `API_KEY`: This variable is used to specify the OpenAI API key.
+
 ## Usage
 
 1. Start the Rails server by running `rails s`.
